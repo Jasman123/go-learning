@@ -1,0 +1,32 @@
+# Claude Code — local, machine-specific only
+.claude/settings.local.json
+.claude/.credentials.json
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Go build output
+/bin/
+*.exe
+*.test
+*.out
+
+# Go profiling / coverage artefacts
+*.prof
+*.pprof
+coverage.out
+coverage.html
+trace.out
+
+# Editors & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
